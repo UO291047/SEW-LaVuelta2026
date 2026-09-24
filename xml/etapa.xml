@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+
+<etapa>
+    <datosEtapa>
+        <nombre>La Vila Joiosa-Villajoyosa a Alto de Aitana-Costa Blanca</nombre>
+        <numero>9</numero>
+        <longitudEtapa unidades="km">187.4</longitudEtapa>
+        <fecha>30/8/2026</fecha>
+        <datosGanador>
+            <tiempoGanador>05h 10' 40''</tiempoGanador>
+            <velMedia uEspacio="km" uTiempo="h">36.19</velMedia>
+        </datosGanador>
+        <desnivel unidades="m">4940</desnivel>
+        <ubiInicio>La Vila Joiosa-Villajoyosa</ubiInicio>
+        <ubiFinal>Alto de Aitana-Costa Blanca</ubiFinal>
+        <tipoEtapa>Montaña</tipoEtapa>
+    </datosEtapa>
+    <galeria>
+        <refs>
+            <ref>Libro de ruta - La vuelta 2026</ref>
+            <ref>www.lavuelta.es</ref>
+            <ref>https://merkabici.es/recorrido-oficial-de-la-vuelta-a-espana-2026/</ref>
+        </refs>
+        <fotos>
+            <foto>foto1.jpg</foto>
+            <foto>foto2.jpg</foto>
+            <foto>foto3.jpg</foto>
+        </fotos>
+        <videos>
+            <video>video1.mp4</video>
+        </videos>
+        <sonidos>
+            <sonido>sonido1.mp3</sonido>
+        </sonidos>
+    </galeria>
+    <ubiSalida>
+        <coords>
+            <longitud unidades="decimales de grados">00.000</longitud>
+            <latitud unidades="decimales de grados">00.000</latitud>
+            <altitud unidades="m">00.000</altitud>
+        </coords>
+    </ubiSalida>
+    <ubiMeta>
+        <coords>
+            <longitud unidades="decimales de grados">00.000</longitud>
+            <latitud unidades="decimales de grados">00.000</latitud>
+            <altitud unidades="m">00.000</altitud>
+        </coords>
+    </ubiMeta>
+    <hitos>
+        <hito>
+            <tipoHito tipo="1ª categoria">Puerto</tipoHito>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">00.000</altitud>
+            </coords>
+            <distanciaSalida unidades="km">00</distanciaSalida>
+        </hito>
+        <hito>
+            <tipoHito tipo="3ª categoria">Puerto</tipoHito>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">00.000</altitud>
+            </coords>
+            <distanciaSalida unidades="km">00</distanciaSalida>
+        </hito>
+        <hito>
+            <tipoHito tipo="bonificado">Sprint</tipoHito>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">00.000</altitud>
+            </coords>
+            <distanciaSalida unidades="km">00</distanciaSalida>
+        </hito>
+    </hitos>
+    <puntosAnonimos>
+        <puntoAnonimo>
+            <nombre></nombre>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">00.000</altitud>
+            </coords>
+            <distanciaSalida unidades="km">00</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre></nombre>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">00.000</altitud>
+            </coords>
+            <distanciaSalida unidades="km">00</distanciaSalida>
+        </puntoAnonimo>
+    </puntosAnonimos>
+    <clasificacionEtapa>
+        <ciclista>Enric Mas</ciclista>
+        <ciclista>Oscar Onley</ciclista>
+        <ciclista>Primoz Roglic</ciclista>
+        <diferencia unidades="s">0</diferencia>
+        <diferencia unidades="s">12</diferencia>
+    </clasificacionEtapa>
+    <clasificacionGeneral>
+        <ciclista>Enric Mas</ciclista>
+        <ciclista>Primoz Roglic</ciclista>
+        <ciclista>Oscar Onley</ciclista>
+        <diferencia unidades="s">78</diferencia>
+        <diferencia unidades="s">99</diferencia>
+    </clasificacionGeneral>
+    <clasificacionEquipos>
+        <equipo>Decathol CMA CGM Team</equipo>
+        <equipo>EF Education - Easypost</equipo>
+        <equipo>Movistar Team</equipo>
+        <diferencia unidades="s">922</diferencia>
+        <diferencia unidades="s">945</diferencia>
+    </clasificacionEquipos>
+</etapa>

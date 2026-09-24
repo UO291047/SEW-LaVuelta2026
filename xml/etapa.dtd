@@ -1,0 +1,63 @@
+<!ELEMENT etapa (datosEtapa, galeria, ubiSalida, ubiMeta, 
+    hitos, puntosAnonimos, clasificacionEtapa, clasificacionGeneral, clasificacionEquipos)>
+<!ELEMENT datosEtapa (nombre, numero, longitudEtapa, fecha, 
+    datosGanador, desnivel, ubiInicio, ubiFinal, tipoEtapa)>
+<!ELEMENT datosGanador (tiempoGanador, velMedia)>
+<!ELEMENT galeria (refs, fotos, videos, sonidos)>
+<!ELEMENT refs (ref+)>
+<!ELEMENT fotos (foto+)>
+<!ELEMENT videos (video+)>
+<!ELEMENT sonidos (sonido+)>
+<!ELEMENT coords (longitud, latitud, altitud)>
+<!ELEMENT ubiSalida (coords)>
+<!ELEMENT ubiMeta (coords)>
+<!ELEMENT hito (tipoHito, coords, distanciaSalida)>
+<!ELEMENT hitos (hito+)>
+<!ELEMENT puntoAnonimo (nombre, coords, distanciaSalida)>
+<!ELEMENT puntosAnonimos (puntoAnonimo+)>
+<!ELEMENT clasificacionEtapa (ciclista+, diferencia, diferencia)>
+<!ELEMENT clasificacionGeneral (ciclista+, diferencia, diferencia)>
+<!ELEMENT clasificacionEquipos (equipo+, diferencia, diferencia)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT longitudEtapa (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT tiempoGanador (#PCDATA)>
+<!ELEMENT velMedia (#PCDATA)>
+<!ELEMENT desnivel (#PCDATA)>
+<!ELEMENT ubiInicio (#PCDATA)>
+<!ELEMENT ubiFinal (#PCDATA)>
+<!ELEMENT tipoEtapa (#PCDATA)>
+<!ELEMENT ref (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT video (#PCDATA)>
+<!ELEMENT sonido (#PCDATA)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
+<!ELEMENT distanciaSalida (#PCDATA)>
+<!ELEMENT tipoHito (#PCDATA)>
+<!ELEMENT ciclista (#PCDATA)>
+<!ELEMENT equipo (#PCDATA)>
+<!ELEMENT diferencia (#PCDATA)>
+
+<!ATTLIST longitudEtapa
+    unidades CDATA #REQUIRED>
+<!ATTLIST velMedia
+    uEspacio CDATA #REQUIRED
+    uTiempo CDATA #REQUIRED>
+<!ATTLIST desnivel
+    unidades CDATA #REQUIRED>
+<!ATTLIST longitud
+    unidades CDATA #REQUIRED>
+<!ATTLIST latitud
+    unidades CDATA #REQUIRED>
+<!ATTLIST altitud
+    unidades CDATA #REQUIRED>
+<!ATTLIST distanciaSalida
+    unidades CDATA #REQUIRED>
+<!ATTLIST tipoHito
+    tipo CDATA #REQUIRED>
+<!ATTLIST diferencia
+    unidades CDATA #REQUIRED>
