@@ -51,28 +51,30 @@
 	<xs:element name="refs">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element minOccurs="3" maxOccurs="unbounded" ref="ref" />
+				<xs:element ref="ref" />
+				<xs:element ref="ref" />
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="ref" />
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="fotos">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element minOccurs="1" maxOccurs="5" ref="foto" />
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="foto" />
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="videos">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element minOccurs="1" maxOccurs="3" ref="video" />
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="video" />
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="sonidos">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element minOccurs="1" maxOccurs="3" ref="sonido" />
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="sonido" />
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -99,15 +101,6 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="hito">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="tipoHito" />
-				<xs:element ref="coords" />
-				<xs:element ref="distanciaSalida" />
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
 	<xs:element name="hitos">
 		<xs:complexType>
 			<xs:sequence>
@@ -115,10 +108,11 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="puntoAnonimo">
+	<xs:element name="hito">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="nombre" />
+				<xs:element ref="tipoHito" />
 				<xs:element ref="coords" />
 				<xs:element ref="distanciaSalida" />
 			</xs:sequence>
@@ -131,50 +125,105 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="puntoAnonimo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="1" ref="nombre" />
+				<xs:element ref="coords" />
+				<xs:element ref="distanciaSalida" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="clasificacionEtapa">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element minOccurs="1" maxOccurs="3" ref="ciclista" />
-				<xs:element ref="diferencia" />
-				<xs:element ref="diferencia" />
+				<xs:element ref="primero" />
+				<xs:element ref="segundo" />
+				<xs:element ref="tercero" />
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="clasificacionGeneral">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element minOccurs="1" maxOccurs="3" ref="ciclista" />
-				<xs:element ref="diferencia" />
-				<xs:element ref="diferencia" />
+				<xs:element ref="primero" />
+				<xs:element ref="segundo" />
+				<xs:element ref="tercero" />
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="clasificacionEquipos">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element minOccurs="1" maxOccurs="3" ref="equipo" />
+				<xs:element ref="primerEquipo" />
+				<xs:element ref="segundoEquipo" />
+				<xs:element ref="tercerEquipo" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="primero">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ciclista" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="segundo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ciclista" />
 				<xs:element ref="diferencia" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="tercero">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ciclista" />
+				<xs:element ref="diferencia" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="primerEquipo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="equipo" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="segundoEquipo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="equipo" />
+				<xs:element ref="diferencia" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="tercerEquipo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="equipo" />
 				<xs:element ref="diferencia" />
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="nombre" type="xs:string" />
-	<xs:element name="numero" type="xs:int" />
+	<xs:element name="numero" type="xs:string" />
 	<xs:element name="longitudEtapa">
 		<xs:complexType>
 			<xs:simpleContent>
-				<xs:extension base="xs:float">
+				<xs:extension base="xs:string">
 					<xs:attribute name="unidades" type="xs:string" use="required" />
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="fecha" type="xs:date" />
+	<xs:element name="fecha" type="xs:string" />
 	<xs:element name="tiempoGanador" type="xs:string" />
 	<xs:element name="velMedia">
 		<xs:complexType>
 			<xs:simpleContent>
-				<xs:extension base="xs:float">
+				<xs:extension base="xs:string">
 					<xs:attribute name="uEspacio" type="xs:string" use="required" />
 					<xs:attribute name="uTiempo" type="xs:string" use="required" />
 				</xs:extension>
@@ -184,7 +233,7 @@
 	<xs:element name="desnivel">
 		<xs:complexType>
 			<xs:simpleContent>
-				<xs:extension base="xs:float">
+				<xs:extension base="xs:string">
 					<xs:attribute name="unidades" type="xs:string" use="required" />
 				</xs:extension>
 			</xs:simpleContent>
@@ -227,7 +276,7 @@
 	<xs:element name="distanciaSalida">
 		<xs:complexType>
 			<xs:simpleContent>
-				<xs:extension base="xs:float">
+				<xs:extension base="xs:string">
 					<xs:attribute name="unidades" type="xs:string" use="required" />
 				</xs:extension>
 			</xs:simpleContent>
@@ -247,7 +296,7 @@
 	<xs:element name="diferencia">
 		<xs:complexType>
 			<xs:simpleContent>
-				<xs:extension base="xs:float">
+				<xs:extension base="xs:string">
 					<xs:attribute name="unidades" type="xs:string" use="required" />
 				</xs:extension>
 			</xs:simpleContent>

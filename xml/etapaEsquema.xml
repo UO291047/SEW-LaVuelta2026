@@ -12,7 +12,7 @@
             <tiempoGanador>05h 10' 40''</tiempoGanador>
             <velMedia uEspacio="km" uTiempo="h">36.19</velMedia>
         </datosGanador>
-        <desnivel unidades="m">4940</desnivel>
+        <desnivel unidades="m">5166</desnivel>
         <ubiInicio>La Vila Joiosa-Villajoyosa</ubiInicio>
         <ubiFinal>Alto de Aitana-Costa Blanca</ubiFinal>
         <tipoEtapa>Montaña</tipoEtapa>
@@ -39,84 +39,208 @@
         <coords>
             <longitud unidades="decimales de grados">00.000</longitud>
             <latitud unidades="decimales de grados">00.000</latitud>
-            <altitud unidades="m">00.000</altitud>
+            <altitud unidades="m">98</altitud>
         </coords>
     </ubiSalida>
     <ubiMeta>
         <coords>
             <longitud unidades="decimales de grados">00.000</longitud>
             <latitud unidades="decimales de grados">00.000</latitud>
-            <altitud unidades="m">00.000</altitud>
+            <altitud unidades="m">1543</altitud>
         </coords>
     </ubiMeta>
     <hitos>
         <hito>
-            <tipoHito tipo="1ª categoria">Puerto</tipoHito>
+            <nombre>Puerto de Tárbena</nombre>
+            <tipoHito tipo="2ª categoría">Puerto</tipoHito>
             <coords>
                 <longitud unidades="decimales de grados">00.000</longitud>
                 <latitud unidades="decimales de grados">00.000</latitud>
-                <altitud unidades="m">00.000</altitud>
+                <altitud unidades="m">594</altitud>
             </coords>
-            <distanciaSalida unidades="km">00</distanciaSalida>
+            <distanciaSalida unidades="km">36.7</distanciaSalida>
         </hito>
         <hito>
-            <tipoHito tipo="3ª categoria">Puerto</tipoHito>
+            <nombre>Puerto de El Miserat</nombre>
+            <tipoHito tipo="1ª categoría">Puerto</tipoHito>
             <coords>
                 <longitud unidades="decimales de grados">00.000</longitud>
                 <latitud unidades="decimales de grados">00.000</latitud>
-                <altitud unidades="m">00.000</altitud>
+                <altitud unidades="m">634</altitud>
             </coords>
-            <distanciaSalida unidades="km">00</distanciaSalida>
+            <distanciaSalida unidades="km">73.9</distanciaSalida>
         </hito>
         <hito>
-            <tipoHito tipo="bonificado">Sprint</tipoHito>
+            <nombre>Puerto de Tollos</nombre>
+            <tipoHito tipo="3ª categoría">Puerto</tipoHito>
             <coords>
                 <longitud unidades="decimales de grados">00.000</longitud>
                 <latitud unidades="decimales de grados">00.000</latitud>
-                <altitud unidades="m">00.000</altitud>
+                <altitud unidades="m">829</altitud>
             </coords>
-            <distanciaSalida unidades="km">00</distanciaSalida>
+            <distanciaSalida unidades="km">90.7</distanciaSalida>
+        </hito>
+        <hito>
+            <nombre>Puerto de Tudons</nombre>
+            <tipoHito tipo="2ª categoría">Puerto</tipoHito>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">1027</altitud>
+            </coords>
+            <distanciaSalida unidades="km">121.8</distanciaSalida>
+        </hito>
+        <hito>
+            <nombre>Benifallim</nombre>
+            <tipoHito tipo="intermedio">Sprint</tipoHito>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">723</altitud>
+            </coords>
+            <distanciaSalida unidades="km">134.6</distanciaSalida>
+        </hito>
+        <hito>
+            <nombre>Puerto de Benifallim</nombre>
+            <tipoHito tipo="2ª categoría">Puerto</tipoHito>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">1013</altitud>
+            </coords>
+            <distanciaSalida unidades="km">139.9</distanciaSalida>
+        </hito>
+        <hito>
+            <nombre>Alto de Aitana</nombre>
+            <tipoHito tipo="1ª categoría">Puerto</tipoHito>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">1543</altitud>
+            </coords>
+            <distanciaSalida unidades="km">187.4</distanciaSalida>
         </hito>
     </hitos>
     <puntosAnonimos>
         <puntoAnonimo>
-            <nombre>La Vila Joiosa/Villajoyosa</nombre>
-            <coords>
-                <longitud unidades="decimales de grados">38.538118</longitud>
-                <latitud unidades="decimales de grados">-0.213006</latitud>
-                <altitud unidades="m">93</altitud>
-            </coords>
-            <distanciaSalida unidades="km">00</distanciaSalida>
-        </puntoAnonimo>
-        <puntoAnonimo>
-            <nombre></nombre>
+            <nombre>Finestrat</nombre>
             <coords>
                 <longitud unidades="decimales de grados">00.000</longitud>
                 <latitud unidades="decimales de grados">00.000</latitud>
-                <altitud unidades="m">00.000</altitud>
+                <altitud unidades="m">208</altitud>
             </coords>
-            <distanciaSalida unidades="km">00</distanciaSalida>
+            <distanciaSalida unidades="km">3.1</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>La Nucia</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">250</altitud>
+            </coords>
+            <distanciaSalida unidades="km">18.1</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Callosa d'en Sarrià</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">211</altitud>
+            </coords>
+            <distanciaSalida unidades="km">24.3</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Orba</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">174</altitud>
+            </coords>
+            <distanciaSalida unidades="km">55.5</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Pego</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">72</altitud>
+            </coords>
+            <distanciaSalida unidades="km">66.7</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Gorga</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">550</altitud>
+            </coords>
+            <distanciaSalida unidades="km">106.0</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>La Torre de les Maçanes</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">790</altitud>
+            </coords>
+            <distanciaSalida unidades="km">144.0</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Relleu</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">468</altitud>
+            </coords>
+            <distanciaSalida unidades="km">158.8</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Sella</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">00.000</longitud>
+                <latitud unidades="decimales de grados">00.000</latitud>
+                <altitud unidades="m">399</altitud>
+            </coords>
+            <distanciaSalida unidades="km">169.0</distanciaSalida>
         </puntoAnonimo>
     </puntosAnonimos>
     <clasificacionEtapa>
-        <ciclista>Enric Mas</ciclista>
-        <ciclista>Oscar Onley</ciclista>
-        <ciclista>Primoz Roglic</ciclista>
-        <diferencia unidades="s">0</diferencia>
-        <diferencia unidades="s">12</diferencia>
+        <primero>
+            <ciclista>Enric Mas</ciclista>
+        </primero>
+        <segundo>
+            <ciclista>Oscar Onley</ciclista>
+            <diferencia unidades="s">0</diferencia>
+        </segundo>
+        <tercero>
+            <ciclista>Primoz Roglic</ciclista>
+            <diferencia unidades="s">12</diferencia>
+        </tercero>
     </clasificacionEtapa>
     <clasificacionGeneral>
-        <ciclista>Enric Mas</ciclista>
-        <ciclista>Primoz Roglic</ciclista>
-        <ciclista>Oscar Onley</ciclista>
-        <diferencia unidades="s">78</diferencia>
-        <diferencia unidades="s">99</diferencia>
+        <primero>
+            <ciclista>Enric Mas</ciclista>
+        </primero>
+        <segundo>
+            <ciclista>Primoz Roglic</ciclista>
+            <diferencia unidades="s">78</diferencia>
+        </segundo>
+        <tercero>
+            <ciclista>Oscar Onley</ciclista>
+            <diferencia unidades="s">99</diferencia>
+        </tercero>
     </clasificacionGeneral>
     <clasificacionEquipos>
-        <equipo>Decathol CMA CGM Team</equipo>
-        <equipo>EF Education - Easypost</equipo>
-        <equipo>Movistar Team</equipo>
-        <diferencia unidades="s">922</diferencia>
-        <diferencia unidades="s">945</diferencia>
+        <primerEquipo>
+            <equipo>Decathlon CMA CGM Team</equipo>
+        </primerEquipo>
+        <segundoEquipo>
+            <equipo>EF Education - Easypost</equipo>
+            <diferencia unidades="s">922</diferencia>
+        </segundoEquipo>
+        <tercerEquipo>
+            <equipo>Movistar Team</equipo>
+            <diferencia unidades="s">945</diferencia>
+        </tercerEquipo>
     </clasificacionEquipos>
 </etapa>
