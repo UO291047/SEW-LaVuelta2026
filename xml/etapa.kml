@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Etapa: La Vila Joiosa-Villajoyosa a Alto de Aitana-Costa Blanca</name>
+    <Style id="estiloSalidaMeta">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="estiloPuerto">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="estiloSprint">
+      <IconStyle>
+        <color>ffff0000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="estiloAnonimo">
+      <IconStyle>
+        <color>ff00ffff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="estiloRecorrido">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Placemark>
+      <name>Recorrido de la etapa</name>
+      <styleUrl>#estiloRecorrido</styleUrl>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>
+-0.213006,38.538118,98.0
+-0.210617,38.569156,259.0
+-0.126468,38.612964,237.0
+-0.131854,38.62501,204.0
+-0.120736,38.650363,229.0
+-0.110968,38.676353,205.0
+-0.103679,38.69572,594.0
+-0.059602,38.72359,619.0
+-0.0703,38.74655,269.0
+-0.065584,38.780808,145.0
+-0.067543,38.817566,144.0
+-0.12104,38.838427,88.0
+-0.175283,38.827861,634.0
+-0.251748,38.796087,629.0
+-0.269471,38.777216,676.0
+-0.267911,38.763113,829.0
+-0.272773,38.753338,730.0
+-0.27109,38.735777,775.0
+-0.313692,38.724421,632.0
+-0.35679,38.720327,545.0
+-0.344613,38.69037,691.0
+-0.331509,38.676008,737.0
+-0.324812,38.650303,1027.0
+-0.359902,38.678763,693.0
+-0.400657,38.662617,723.0
+-0.403961,38.641518,1013.0
+-0.417615,38.606704,785.0
+-0.307966,38.590826,450.0
+-0.273,38.607625,391.0
+-0.30954,38.629778,668.0
+-0.324806,38.650119,1024.0
+-0.295553,38.652322,1279.0
+-0.267632,38.649601,1543.0
+-0.267632,38.649601,1543.0
+</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>La Vila Joiosa-Villajoyosa</name>
+      <description>Km 0.0 - Altitud 98.0 m</description>
+      <styleUrl>#estiloSalidaMeta</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.213006,38.538118,98.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Finestrat</name>
+      <description>Km 3.1 - Altitud 259.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.210617,38.569156,259.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Nucia</name>
+      <description>Km 18.1 - Altitud 237.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.126468,38.612964,237.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Polop</name>
+      <description>Km 20.5 - Altitud 204.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.131854,38.62501,204.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Callosa d'en Sarrià</name>
+      <description>Km 24.3 - Altitud 229.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.120736,38.650363,229.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolulla</name>
+      <description>Km 29.5 - Altitud 205.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.110968,38.676353,205.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto de Tárbena</name>
+      <description>2ª categoría - Km 36.7 - Altitud 594.0 m</description>
+      <styleUrl>#estiloPuerto</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.103679,38.69572,594.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coll de Rates</name>
+      <description>Km 43.6 - Altitud 619.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.059602,38.72359,619.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Parcent</name>
+      <description>Km 50.3 - Altitud 269.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.0703,38.74655,269.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Orba</name>
+      <description>Km 55.5 - Altitud 145.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.065584,38.780808,145.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sagra</name>
+      <description>Km 59.9 - Altitud 144.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.067543,38.817566,144.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pego</name>
+      <description>Km 66.7 - Altitud 88.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.12104,38.838427,88.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto de El Miserat</name>
+      <description>1ª categoría - Km 73.9 - Altitud 634.0 m</description>
+      <styleUrl>#estiloPuerto</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.175283,38.827861,634.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alcalá de la Jovada</name>
+      <description>Km 83.7 - Altitud 629.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.251748,38.796087,629.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Beniaia</name>
+      <description>Km 88.2 - Altitud 676.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.269471,38.777216,676.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto de Tollos</name>
+      <description>3ª categoría - Km 90.7 - Altitud 829.0 m</description>
+      <styleUrl>#estiloPuerto</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.267911,38.763113,829.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tollos</name>
+      <description>Km 92.7 - Altitud 730.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.272773,38.753338,730.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fageca</name>
+      <description>Km 95.4 - Altitud 775.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.27109,38.735777,775.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Quatretondeta</name>
+      <description>Km 101.0 - Altitud 632.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.313692,38.724421,632.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gorga</name>
+      <description>Km 106.0 - Altitud 545.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.35679,38.720327,545.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Benasau</name>
+      <description>Km 113.2 - Altitud 691.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.344613,38.69037,691.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alcoleja</name>
+      <description>Km 116.4 - Altitud 737.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.331509,38.676008,737.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto de Tudons</name>
+      <description>2ª categoría - Km 121.8 - Altitud 1027.0 m</description>
+      <styleUrl>#estiloPuerto</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.324812,38.650303,1027.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Penáguila</name>
+      <description>Km 129.6 - Altitud 693.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.359902,38.678763,693.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Benifallim</name>
+      <description>intermedio - Km 134.6 - Altitud 723.0 m</description>
+      <styleUrl>#estiloSprint</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.400657,38.662617,723.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto de Benifallim</name>
+      <description>2ª categoría - Km 139.9 - Altitud 1013.0 m</description>
+      <styleUrl>#estiloPuerto</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.403961,38.641518,1013.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Torre de les Maçanes</name>
+      <description>Km 144.0 - Altitud 785.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.417615,38.606704,785.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Relleu</name>
+      <description>Km 158.8 - Altitud 450.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.307966,38.590826,450.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sella</name>
+      <description>Km 169.0 - Altitud 391.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.273,38.607625,391.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Km 175.0</name>
+      <description>Km 175.0 - Altitud 668.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.30954,38.629778,668.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cruce hacia el Alto de Aitana</name>
+      <description>Km 180.8 - Altitud 1024.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.324806,38.650119,1024.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Km 184.0</name>
+      <description>Km 184.0 - Altitud 1279.0 m</description>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.295553,38.652322,1279.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alto de Aitana</name>
+      <description>1ª categoría - Km 187.4 - Altitud 1543.0 m</description>
+      <styleUrl>#estiloPuerto</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.267632,38.649601,1543.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alto de Aitana-Costa Blanca</name>
+      <description>Km 187.4 - Altitud 1543.0 m</description>
+      <styleUrl>#estiloSalidaMeta</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-0.267632,38.649601,1543.0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
