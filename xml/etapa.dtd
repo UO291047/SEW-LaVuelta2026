@@ -1,23 +1,29 @@
-<!ELEMENT etapa (datosEtapa, galeria, ubiSalida, ubiMeta, 
+<!ELEMENT etapa (datosEtapa, galeria, ubiSalida, ubiMeta,
     hitos, puntosAnonimos, clasificacionEtapa, clasificacionGeneral, clasificacionEquipos)>
-<!ELEMENT datosEtapa (nombre, numero, longitudEtapa, fecha, 
+<!ELEMENT datosEtapa (nombre, numero, longitudEtapa, fecha,
     datosGanador, desnivel, ubiInicio, ubiFinal, tipoEtapa)>
 <!ELEMENT datosGanador (tiempoGanador, velMedia)>
 <!ELEMENT galeria (refs, fotos, videos, sonidos)>
-<!ELEMENT refs (ref+)>
+<!ELEMENT refs (ref, ref, ref+)>
 <!ELEMENT fotos (foto+)>
 <!ELEMENT videos (video+)>
 <!ELEMENT sonidos (sonido+)>
 <!ELEMENT coords (longitud, latitud, altitud)>
 <!ELEMENT ubiSalida (coords)>
 <!ELEMENT ubiMeta (coords)>
-<!ELEMENT hito (tipoHito, coords, distanciaSalida)>
 <!ELEMENT hitos (hito+)>
-<!ELEMENT puntoAnonimo (nombre, coords, distanciaSalida)>
+<!ELEMENT hito (nombre, tipoHito, coords, distanciaSalida)>
 <!ELEMENT puntosAnonimos (puntoAnonimo+)>
-<!ELEMENT clasificacionEtapa (ciclista+, diferencia, diferencia)>
-<!ELEMENT clasificacionGeneral (ciclista+, diferencia, diferencia)>
-<!ELEMENT clasificacionEquipos (equipo+, diferencia, diferencia)>
+<!ELEMENT puntoAnonimo (nombre?, coords, distanciaSalida)>
+<!ELEMENT clasificacionEtapa (primero, segundo, tercero)>
+<!ELEMENT clasificacionGeneral (primero, segundo, tercero)>
+<!ELEMENT clasificacionEquipos (primerEquipo, segundoEquipo, tercerEquipo)>
+<!ELEMENT primero (ciclista)>
+<!ELEMENT segundo (ciclista, diferencia)>
+<!ELEMENT tercero (ciclista, diferencia)>
+<!ELEMENT primerEquipo (equipo)>
+<!ELEMENT segundoEquipo (equipo, diferencia)>
+<!ELEMENT tercerEquipo (equipo, diferencia)>
 
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT numero (#PCDATA)>
