@@ -8,7 +8,7 @@
         <longitudEtapa unidades="km">187.4</longitudEtapa>
         <fecha>2026-08-30</fecha>
         <datosGanador>
-            <tiempoGanador>05h 10' 40''</tiempoGanador>
+            <tiempoGanador>PT5H10M40S</tiempoGanador>
             <velMedia uEspacio="km" uTiempo="h">36.19</velMedia>
         </datosGanador>
         <desnivel unidades="m">5166</desnivel>
@@ -36,15 +36,15 @@
     </galeria>
     <ubiSalida>
         <coords>
-            <longitud unidades="decimales de grados">00.000</longitud>
-            <latitud unidades="decimales de grados">00.000</latitud>
+            <longitud unidades="decimales de grados">-0.213006</longitud>
+            <latitud unidades="decimales de grados">38.538118</latitud>
             <altitud unidades="m">98</altitud>
         </coords>
     </ubiSalida>
     <ubiMeta>
         <coords>
-            <longitud unidades="decimales de grados">00.000</longitud>
-            <latitud unidades="decimales de grados">00.000</latitud>
+            <longitud unidades="decimales de grados">-0.267632</longitud>
+            <latitud unidades="decimales de grados">38.649601</latitud>
             <altitud unidades="m">1543</altitud>
         </coords>
     </ubiMeta>
@@ -53,8 +53,8 @@
             <nombre>Puerto de Tárbena</nombre>
             <tipoHito tipo="2ª categoría">Puerto</tipoHito>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
+                <longitud unidades="decimales de grados">-0.103679</longitud>
+                <latitud unidades="decimales de grados">38.695720</latitud>
                 <altitud unidades="m">594</altitud>
             </coords>
             <distanciaSalida unidades="km">36.7</distanciaSalida>
@@ -63,8 +63,8 @@
             <nombre>Puerto de El Miserat</nombre>
             <tipoHito tipo="1ª categoría">Puerto</tipoHito>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
+                <longitud unidades="decimales de grados">-0.175283</longitud>
+                <latitud unidades="decimales de grados">38.827861</latitud>
                 <altitud unidades="m">634</altitud>
             </coords>
             <distanciaSalida unidades="km">73.9</distanciaSalida>
@@ -73,8 +73,8 @@
             <nombre>Puerto de Tollos</nombre>
             <tipoHito tipo="3ª categoría">Puerto</tipoHito>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
+                <longitud unidades="decimales de grados">-0.267911</longitud>
+                <latitud unidades="decimales de grados">38.763113</latitud>
                 <altitud unidades="m">829</altitud>
             </coords>
             <distanciaSalida unidades="km">90.7</distanciaSalida>
@@ -83,8 +83,8 @@
             <nombre>Puerto de Tudons</nombre>
             <tipoHito tipo="2ª categoría">Puerto</tipoHito>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
+                <longitud unidades="decimales de grados">-0.324812</longitud>
+                <latitud unidades="decimales de grados">38.650303</latitud>
                 <altitud unidades="m">1027</altitud>
             </coords>
             <distanciaSalida unidades="km">121.8</distanciaSalida>
@@ -93,8 +93,8 @@
             <nombre>Benifallim</nombre>
             <tipoHito tipo="intermedio">Sprint</tipoHito>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
+                <longitud unidades="decimales de grados">-0.400657</longitud>
+                <latitud unidades="decimales de grados">38.662617</latitud>
                 <altitud unidades="m">723</altitud>
             </coords>
             <distanciaSalida unidades="km">134.6</distanciaSalida>
@@ -103,8 +103,8 @@
             <nombre>Puerto de Benifallim</nombre>
             <tipoHito tipo="2ª categoría">Puerto</tipoHito>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
+                <longitud unidades="decimales de grados">-0.403961</longitud>
+                <latitud unidades="decimales de grados">38.641518</latitud>
                 <altitud unidades="m">1013</altitud>
             </coords>
             <distanciaSalida unidades="km">139.9</distanciaSalida>
@@ -113,8 +113,8 @@
             <nombre>Alto de Aitana</nombre>
             <tipoHito tipo="1ª categoría">Puerto</tipoHito>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
+                <longitud unidades="decimales de grados">-0.267632</longitud>
+                <latitud unidades="decimales de grados">38.649601</latitud>
                 <altitud unidades="m">1543</altitud>
             </coords>
             <distanciaSalida unidades="km">187.4</distanciaSalida>
@@ -124,83 +124,225 @@
         <puntoAnonimo>
             <nombre>Finestrat</nombre>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
-                <altitud unidades="m">208</altitud>
+                <longitud unidades="decimales de grados">-0.210617</longitud>
+                <latitud unidades="decimales de grados">38.569156</latitud>
+                <altitud unidades="m">259</altitud>
             </coords>
             <distanciaSalida unidades="km">3.1</distanciaSalida>
         </puntoAnonimo>
         <puntoAnonimo>
             <nombre>La Nucia</nombre>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
-                <altitud unidades="m">250</altitud>
+                <longitud unidades="decimales de grados">-0.126468</longitud>
+                <latitud unidades="decimales de grados">38.612964</latitud>
+                <altitud unidades="m">237</altitud>
             </coords>
             <distanciaSalida unidades="km">18.1</distanciaSalida>
         </puntoAnonimo>
         <puntoAnonimo>
+            <nombre>Polop</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">-0.131854</longitud>
+                <latitud unidades="decimales de grados">38.625010</latitud>
+                <altitud unidades="m">204</altitud>
+            </coords>
+            <distanciaSalida unidades="km">20.5</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
             <nombre>Callosa d'en Sarrià</nombre>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
-                <altitud unidades="m">211</altitud>
+                <longitud unidades="decimales de grados">-0.120736</longitud>
+                <latitud unidades="decimales de grados">38.650363</latitud>
+                <altitud unidades="m">229</altitud>
             </coords>
             <distanciaSalida unidades="km">24.3</distanciaSalida>
         </puntoAnonimo>
         <puntoAnonimo>
+            <nombre>Bolulla</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">-0.110968</longitud>
+                <latitud unidades="decimales de grados">38.676353</latitud>
+                <altitud unidades="m">205</altitud>
+            </coords>
+            <distanciaSalida unidades="km">29.5</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Coll de Rates</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">-0.059602</longitud>
+                <latitud unidades="decimales de grados">38.723590</latitud>
+                <altitud unidades="m">619</altitud>
+            </coords>
+            <distanciaSalida unidades="km">43.6</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Parcent</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">-0.070300</longitud>
+                <latitud unidades="decimales de grados">38.746550</latitud>
+                <altitud unidades="m">269</altitud>
+            </coords>
+            <distanciaSalida unidades="km">50.3</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
             <nombre>Orba</nombre>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
-                <altitud unidades="m">174</altitud>
+                <longitud unidades="decimales de grados">-0.065584</longitud>
+                <latitud unidades="decimales de grados">38.780808</latitud>
+                <altitud unidades="m">145</altitud>
             </coords>
             <distanciaSalida unidades="km">55.5</distanciaSalida>
         </puntoAnonimo>
         <puntoAnonimo>
+            <nombre>Sagra</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">-0.067543</longitud>
+                <latitud unidades="decimales de grados">38.817566</latitud>
+                <altitud unidades="m">144</altitud>
+            </coords>
+            <distanciaSalida unidades="km">59.9</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
             <nombre>Pego</nombre>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
-                <altitud unidades="m">72</altitud>
+                <longitud unidades="decimales de grados">-0.121040</longitud>
+                <latitud unidades="decimales de grados">38.838427</latitud>
+                <altitud unidades="m">88</altitud>
             </coords>
             <distanciaSalida unidades="km">66.7</distanciaSalida>
         </puntoAnonimo>
         <puntoAnonimo>
+            <nombre>Alcalá de la Jovada</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">-0.251748</longitud>
+                <latitud unidades="decimales de grados">38.796087</latitud>
+                <altitud unidades="m">629</altitud>
+            </coords>
+            <distanciaSalida unidades="km">83.7</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Beniaia</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">-0.269471</longitud>
+                <latitud unidades="decimales de grados">38.777216</latitud>
+                <altitud unidades="m">676</altitud>
+            </coords>
+            <distanciaSalida unidades="km">88.2</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Tollos</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">-0.272773</longitud>
+                <latitud unidades="decimales de grados">38.753338</latitud>
+                <altitud unidades="m">730</altitud>
+            </coords>
+            <distanciaSalida unidades="km">92.7</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Fageca</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">-0.271090</longitud>
+                <latitud unidades="decimales de grados">38.735777</latitud>
+                <altitud unidades="m">775</altitud>
+            </coords>
+            <distanciaSalida unidades="km">95.4</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Quatretondeta</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">-0.313692</longitud>
+                <latitud unidades="decimales de grados">38.724421</latitud>
+                <altitud unidades="m">632</altitud>
+            </coords>
+            <distanciaSalida unidades="km">101.0</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
             <nombre>Gorga</nombre>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
-                <altitud unidades="m">550</altitud>
+                <longitud unidades="decimales de grados">-0.356790</longitud>
+                <latitud unidades="decimales de grados">38.720327</latitud>
+                <altitud unidades="m">545</altitud>
             </coords>
             <distanciaSalida unidades="km">106.0</distanciaSalida>
         </puntoAnonimo>
         <puntoAnonimo>
+            <nombre>Benasau</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">-0.344613</longitud>
+                <latitud unidades="decimales de grados">38.690370</latitud>
+                <altitud unidades="m">691</altitud>
+            </coords>
+            <distanciaSalida unidades="km">113.2</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Alcoleja</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">-0.331509</longitud>
+                <latitud unidades="decimales de grados">38.676008</latitud>
+                <altitud unidades="m">737</altitud>
+            </coords>
+            <distanciaSalida unidades="km">116.4</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Penáguila</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">-0.359902</longitud>
+                <latitud unidades="decimales de grados">38.678763</latitud>
+                <altitud unidades="m">693</altitud>
+            </coords>
+            <distanciaSalida unidades="km">129.6</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
             <nombre>La Torre de les Maçanes</nombre>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
-                <altitud unidades="m">790</altitud>
+                <longitud unidades="decimales de grados">-0.417615</longitud>
+                <latitud unidades="decimales de grados">38.606704</latitud>
+                <altitud unidades="m">785</altitud>
             </coords>
             <distanciaSalida unidades="km">144.0</distanciaSalida>
         </puntoAnonimo>
         <puntoAnonimo>
             <nombre>Relleu</nombre>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
-                <altitud unidades="m">468</altitud>
+                <longitud unidades="decimales de grados">-0.307966</longitud>
+                <latitud unidades="decimales de grados">38.590826</latitud>
+                <altitud unidades="m">450</altitud>
             </coords>
             <distanciaSalida unidades="km">158.8</distanciaSalida>
         </puntoAnonimo>
         <puntoAnonimo>
             <nombre>Sella</nombre>
             <coords>
-                <longitud unidades="decimales de grados">00.000</longitud>
-                <latitud unidades="decimales de grados">00.000</latitud>
-                <altitud unidades="m">399</altitud>
+                <longitud unidades="decimales de grados">-0.273000</longitud>
+                <latitud unidades="decimales de grados">38.607625</latitud>
+                <altitud unidades="m">391</altitud>
             </coords>
             <distanciaSalida unidades="km">169.0</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <coords>
+                <longitud unidades="decimales de grados">-0.309540</longitud>
+                <latitud unidades="decimales de grados">38.629778</latitud>
+                <altitud unidades="m">668</altitud>
+            </coords>
+            <distanciaSalida unidades="km">175.0</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <nombre>Cruce hacia el Alto de Aitana</nombre>
+            <coords>
+                <longitud unidades="decimales de grados">-0.324806</longitud>
+                <latitud unidades="decimales de grados">38.650119</latitud>
+                <altitud unidades="m">1024</altitud>
+            </coords>
+            <distanciaSalida unidades="km">180.8</distanciaSalida>
+        </puntoAnonimo>
+        <puntoAnonimo>
+            <coords>
+                <longitud unidades="decimales de grados">-0.295553</longitud>
+                <latitud unidades="decimales de grados">38.652322</latitud>
+                <altitud unidades="m">1279</altitud>
+            </coords>
+            <distanciaSalida unidades="km">184.0</distanciaSalida>
         </puntoAnonimo>
     </puntosAnonimos>
     <clasificacionEtapa>
