@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Juegos</title>
+
+    <meta name="author" content="David González" />
+    <meta name="description" content="Documento de juegos del proyecto LaVuelta2026" />
+   
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+   <!-- contenido de juegos.html  -->
+    <header>
+        <h1><a href="index.html">LaVuelta2026</a></h1>
+        <nav>
+            <a href="index.html" title="Menú de inicio">Inicio</a>
+            <a href="ciclista.html" title="Información sobre el ciclista">Ciclista</a>
+            <a href="equipo.html" title="Información sobre el equipo">Equipo</a>
+            <a href="etapa.html" title="Información sobre la etapa">Etapa</a>
+            <a href="meteorologia.html" title="Información sobre la meteorología">Meteorología</a>
+            <a href="clasificaciones.html" title="Información sobre las clasificaciones">Clasificaciones</a>
+            <a class="active" href="juegos.html" title="Juegos relacionados">Juegos</a>
+            <a href="ayuda.html" title="Ayuda de la página">Ayuda</a>
+        </nav>
+    </header>
+
+    <h2>Juegos</h2>
+
+    <h3>¿Conoces la etapa?</h3>
+    <p>Este es un juego de 10 preguntas sobre la información de una etapa de la Vuelta 2026</p>
+
+    <form>
+        <fieldset>
+            <legend>La Vila Joiosa-Villajoyosa a Alto de Aitana-Costa Blanca</legend>
+            <p>
+                <label for="pregunta1">1. ¿Cuál es el número de la etapa?</label>
+                <input type="number" id="pregunta1" min="1" max="21" />
+            </p>
+            <p>
+                <label for="pregunta2">2. ¿Cuál es la fecha de celebración de la etapa?</label>
+                <input type="date" id="pregunta2" min="2026-08-22" max="2026-09-13" />
+            </p>
+            <p>
+                <label for="pregunta3">3. ¿Cuál fue el lugar de salida de la etapa?</label>
+                <select id="pregunta3">
+                    <option value="">Seleccione una opción</option>
+                    <option value="La Vila Joiosa-Villajoyosa">La Vila Joiosa-Villajoyosa</option>
+                    <option value="Monaco">Monaco</option>
+                    <option value="Palma del Río">Palma del Río</option>
+                    <option value="Alcaraz">Alcaraz</option>
+                    <option value="Cartagena">Cartagena</option>
+                    <option value="Vera">Vera</option>
+                </select>
+            </p>
+            <p>
+                <label for="pregunta4">4. ¿Cuál fue el lugar de llegada de la etapa?</label>
+                <select id="pregunta4">
+                    <option value="">Seleccione una opción</option>
+                    <option value="Sevilla">Sevilla</option>
+                    <option value="Castelló">Castelló</option>
+                    <option value="Lorca">Lorca</option>
+                    <option value="Granada">Granada</option>
+                    <option value="Alto de Aitana-Costa Blanca">Alto de Aitana-Costa Blanca</option>
+                    <option value="Loja">Loja</option>
+                </select>
+            </p>
+            <p>
+                <label for="pregunta5">5. ¿De qué tipo es la etapa?</label>
+                <select id="pregunta5">
+                    <option value="">Seleccione una opción</option>
+                    <option value="Llana">Llana</option>
+                    <option value="Media montaña">Media montaña</option>
+                    <option value="Montaña">Montaña</option>
+                    <option value="Contrarreloj individual">Contrarreloj individual</option>
+                    <option value="Contrarreloj por equipos">Contrarreloj por equipos</option>
+                </select>
+            </p>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
