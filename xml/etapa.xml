@@ -23,15 +23,15 @@
             <ref>https://merkabici.es/recorrido-oficial-de-la-vuelta-a-espana-2026/</ref>
         </refs>
         <fotos>
-            <foto>foto1.jpg</foto>
-            <foto>foto2.jpg</foto>
-            <foto>foto3.jpg</foto>
+            <foto>multimedia/foto1_lavuelta2026.jpeg</foto>
+            <foto>multimedia/foto2_lavuelta2026.jpeg</foto>
+            <foto>multimedia/foto3_lavuelta2026.jpeg</foto>
         </fotos>
         <videos>
-            <video>video1.mp4</video>
+            <video>multimedia/video1_lavuelta2026.mp4</video>
         </videos>
         <sonidos>
-            <sonido>sonido1.mp3</sonido>
+            <sonido>multimedia/sonido1_lavuelta2026.m4a</sonido>
         </sonidos>
     </galeria>
     <ubiSalida>
