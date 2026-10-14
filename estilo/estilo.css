@@ -6,7 +6,7 @@
 /* --------------------------------------*/
 /*  Nombre y Apellidos: David González González */
 /*  Correo electrónico (uniovi): UO291047@uniovi.es */
-/*  Grupo de laboratorio:                */
+/*  Grupo de laboratorio: L-06           */
 /* ***************************************/
 
 /* Gama cromática
@@ -32,7 +32,7 @@ Color negro (#000000)
 
 /* Especificidad: 001 */
 body {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: "Century Gothic", "Trebuchet MS", sans-serif;
     color: var(--color-negro);
     background-color: var(--color-blanco);
 }
