@@ -43,7 +43,11 @@
             <li>Equipo: TUDOR PRO CYCLING TEAM</li>
             <li>Dorsal: 178</li>
         </ul>
-        <img src="multimedia/ciclista.png" alt="Foto de Hannes Wilksch" width="300" height="455"/>
+        <picture>
+            <source srcset="multimedia/ciclista_movil.png" media="(max-width: 768px)" width="105" height="159">
+            <source srcset="multimedia/ciclista_tablet.png" media="(max-width: 1024px)" width="210" height="319">
+            <img src="multimedia/ciclista.png" alt="Foto de Hannes Wilksch" width="300" height="455"/>
+        </picture>
     </section>
 
     <section>
@@ -88,6 +92,15 @@
                 <td>9º</td>
             </tr>
         </table>
+    </section>
+
+    <section>
+        <h3>Multimedia</h3>
+        <p>Equipo <a href="https://www.lavuelta.es/es/equipo/TUD/tudor-pro-cycling-team">TUDOR PRO CYCLING TEAM</a> en la Vuelta Ciclista a España 2026</p>
+        <video controls> <!-- Tamaño incorrecto de video, tarea 2.7 pendiente de la 2.4 -->
+            <source src="multimedia/videoEquipo.mp4" type="video/mp4">
+            <source src="multimedia/videoEquipo.webm" type="video/webm">
+        </video>
     </section>
     
 </body>
