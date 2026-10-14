@@ -4,10 +4,53 @@
 /* ***************************************/
 /*    DATOS ESTUDIANTE                   */
 /* --------------------------------------*/
-/*  Nombre y Apellidos:                  */
-/*  Correo electrónico (uniovi):         */
+/*  Nombre y Apellidos: David González González */
+/*  Correo electrónico (uniovi): UO291047@uniovi.es */
 /*  Grupo de laboratorio:                */
 /* ***************************************/
 
+/* Gama cromática
+Color principal (#8C1515)
+    - Contraste de 8.09:1 con color secundario (AAA)
+    - Contraste de 9.40:1 con color blanco (AAA)
+    - Contraste de 2.23:1 con color negro (NO CONTRASTA, se descarta)
+Color secundario (#FBEAEA)
+    - Contraste de 8.09:1 con color principal (AAA)
+    - Contraste de 18.06:1 con color negro (AAA)
+    - Contraste de 1.16:1 con color blanco (NO CONTRASTA, se descarta)
+Color blanco (#FFFFFF)
+Color negro (#000000)
+*/
 
+/* Especificidad: 010 */
+:root {
+    --color-principal: #8C1515;
+    --color-secundario: #FBEAEA;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+}
 
+/* Especificidad: 001 */
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    color: var(--color-negro);
+    background-color: var(--color-blanco);
+}
+
+/* Especificidad: 001, 001 */
+header, footer {
+    color: var(--color-blanco);
+    background-color: var(--color-principal);
+}
+
+/* Especificidad: 001, 001, 001, 001, 001, 001 */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-principal);
+    background-color: var(--color-blanco);
+}
+
+/* Especificidad: 002, 002, 002 */
+header h1, header a, footer a {
+    color: var(--color-blanco);
+    background-color: var(--color-principal);
+}

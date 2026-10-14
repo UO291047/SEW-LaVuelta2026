@@ -14,6 +14,7 @@
     <!--Enlace a las hojas de estilo-->
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/favicon.ico" />
 </head>
 
 <body>
@@ -32,95 +33,101 @@
         </nav>
     </header>
 
-    <h2>Juegos</h2>
+    <main>
+        <h2>Juegos</h2>
 
-    <h3>¿Conoces la etapa?</h3>
-    <p>Este es un juego de 10 preguntas sobre la información de una etapa de la Vuelta 2026</p>
+        <h3>¿Conoces la etapa?</h3>
+        <p>Este es un juego de 10 preguntas sobre la información de una etapa de la Vuelta 2026</p>
 
-    <form>
-        <fieldset>
-            <legend>La Vila Joiosa-Villajoyosa a Alto de Aitana-Costa Blanca</legend>
-            <p>
-                <label for="pregunta1">1. ¿Cuál es el número de la etapa?</label>
-                <input type="number" id="pregunta1" min="1" max="21" />
-            </p>
-            <p>
-                <label for="pregunta2">2. ¿Cuál es la fecha de celebración de la etapa?</label>
-                <input type="date" id="pregunta2" min="2026-08-22" max="2026-09-13" />
-            </p>
-            <p>
-                <label for="pregunta3">3. ¿Cuál fue el lugar de salida de la etapa?</label>
-                <select id="pregunta3">
-                    <option value="">Seleccione una opción</option>
-                    <option value="La Vila Joiosa-Villajoyosa">La Vila Joiosa-Villajoyosa</option>
-                    <option value="Monaco">Monaco</option>
-                    <option value="Palma del Río">Palma del Río</option>
-                    <option value="Alcaraz">Alcaraz</option>
-                    <option value="Cartagena">Cartagena</option>
-                    <option value="Vera">Vera</option>
-                </select>
-            </p>
-            <p>
-                <label for="pregunta4">4. ¿Cuál fue el lugar de llegada de la etapa?</label>
-                <select id="pregunta4">
-                    <option value="">Seleccione una opción</option>
-                    <option value="Sevilla">Sevilla</option>
-                    <option value="Castelló">Castelló</option>
-                    <option value="Lorca">Lorca</option>
-                    <option value="Granada">Granada</option>
-                    <option value="Alto de Aitana-Costa Blanca">Alto de Aitana-Costa Blanca</option>
-                    <option value="Loja">Loja</option>
-                </select>
-            </p>
-            <p>
-                5. ¿De qué tipo es la etapa?
-                <input type="radio" id="llana" name="tipoEtapa" value="Llana" />
-                <label for="llana">Llana</label>
-                <input type="radio" id="mediaMontana" name="tipoEtapa" value="Media montaña" />
-                <label for="mediaMontana">Media montaña</label>
-                <input type="radio" id="montana" name="tipoEtapa" value="Montaña" />
-                <label for="montana">Montaña</label>
-                <input type="radio" id="crIndividual" name="tipoEtapa" value="Contrarreloj individual" />
-                <label for="crIndividual">Contrarreloj individual</label>
-                <input type="radio" id="crEquipos" name="tipoEtapa" value="Contrarreloj por equipos" />
-                <label for="crEquipos">Contrarreloj por equipos</label>
-            </p>
-            <p>
-                6. ¿Qué hitos hay en la etapa?
-                <input type="checkbox" id="puerto" value="Puerto de montaña" />
-                <label for="puerto">Puerto de montaña</label>
-                <input type="checkbox" id="puertoEspecial" value="Puerto categoría especial" />
-                <label for="puertoEspecial">Puerto categoría especial</label>
-                <input type="checkbox" id="sprintIntermedio" value="Sprint intermedio" />
-                <label for="sprintIntermedio">Sprint intermedio</label>
-                <input type="checkbox" id="sprintBonificado" value="Sprint bonificado" />
-                <label for="sprintBonificado">Sprint bonificado</label>
-                <input type="checkbox" id="sinHitos" value="Sin hitos" />
-                <label for="sinHitos">Sin hitos</label>
-            </p>
-            <p>
-                <label for="pregunta7">7. ¿Cómo de dura es la etapa? (de 1 a 10)</label>
-                <input type="range" id="pregunta7" min="1" max="10" step="1" />
-            </p>
-            <p>
-                <label for="pregunta8">8. ¿Cuál es la longitud de la etapa en kilómetros?</label>
-                <input type="number" id="pregunta8" min="0" step="0.1" />
-            </p>
-            <p>
-                <label for="pregunta9">9. ¿Cuál es el desnivel acumulado de la etapa en metros?</label>
-                <input type="number" id="pregunta9" min="0" step="1" />
-            </p>
-            <p>
-                <label for="pregunta10">10. Describe brevemente la etapa</label>
-                <textarea id="pregunta10" rows="4" cols="50"></textarea>
-            </p>
-            <p>
-                <label for="nombre">Nombre del participante</label>
-                <input type="text" id="nombre" />
-            </p>
-        </fieldset>
-        <button type="submit">Enviar respuestas</button>
-    </form>
-    
+        <form>
+            <fieldset>
+                <legend>La Vila Joiosa-Villajoyosa a Alto de Aitana-Costa Blanca</legend>
+                <p>
+                    <label for="pregunta1">1. ¿Cuál es el número de la etapa?</label>
+                    <input type="number" id="pregunta1" min="1" max="21" />
+                </p>
+                <p>
+                    <label for="pregunta2">2. ¿Cuál es la fecha de celebración de la etapa?</label>
+                    <input type="date" id="pregunta2" min="2026-08-22" max="2026-09-13" />
+                </p>
+                <p>
+                    <label for="pregunta3">3. ¿Cuál fue el lugar de salida de la etapa?</label>
+                    <select id="pregunta3">
+                        <option value="">Seleccione una opción</option>
+                        <option value="La Vila Joiosa-Villajoyosa">La Vila Joiosa-Villajoyosa</option>
+                        <option value="Monaco">Monaco</option>
+                        <option value="Palma del Río">Palma del Río</option>
+                        <option value="Alcaraz">Alcaraz</option>
+                        <option value="Cartagena">Cartagena</option>
+                        <option value="Vera">Vera</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="pregunta4">4. ¿Cuál fue el lugar de llegada de la etapa?</label>
+                    <select id="pregunta4">
+                        <option value="">Seleccione una opción</option>
+                        <option value="Sevilla">Sevilla</option>
+                        <option value="Castelló">Castelló</option>
+                        <option value="Lorca">Lorca</option>
+                        <option value="Granada">Granada</option>
+                        <option value="Alto de Aitana-Costa Blanca">Alto de Aitana-Costa Blanca</option>
+                        <option value="Loja">Loja</option>
+                    </select>
+                </p>
+                <p>
+                    5. ¿De qué tipo es la etapa?
+                    <input type="radio" id="llana" name="tipoEtapa" value="Llana" />
+                    <label for="llana">Llana</label>
+                    <input type="radio" id="mediaMontana" name="tipoEtapa" value="Media montaña" />
+                    <label for="mediaMontana">Media montaña</label>
+                    <input type="radio" id="montana" name="tipoEtapa" value="Montaña" />
+                    <label for="montana">Montaña</label>
+                    <input type="radio" id="crIndividual" name="tipoEtapa" value="Contrarreloj individual" />
+                    <label for="crIndividual">Contrarreloj individual</label>
+                    <input type="radio" id="crEquipos" name="tipoEtapa" value="Contrarreloj por equipos" />
+                    <label for="crEquipos">Contrarreloj por equipos</label>
+                </p>
+                <p>
+                    6. ¿Qué hitos hay en la etapa?
+                    <input type="checkbox" id="puerto" value="Puerto de montaña" />
+                    <label for="puerto">Puerto de montaña</label>
+                    <input type="checkbox" id="puertoEspecial" value="Puerto categoría especial" />
+                    <label for="puertoEspecial">Puerto categoría especial</label>
+                    <input type="checkbox" id="sprintIntermedio" value="Sprint intermedio" />
+                    <label for="sprintIntermedio">Sprint intermedio</label>
+                    <input type="checkbox" id="sprintBonificado" value="Sprint bonificado" />
+                    <label for="sprintBonificado">Sprint bonificado</label>
+                    <input type="checkbox" id="sinHitos" value="Sin hitos" />
+                    <label for="sinHitos">Sin hitos</label>
+                </p>
+                <p>
+                    <label for="pregunta7">7. ¿Cómo de dura es la etapa? (de 1 a 10)</label>
+                    <input type="range" id="pregunta7" min="1" max="10" step="1" />
+                </p>
+                <p>
+                    <label for="pregunta8">8. ¿Cuál es la longitud de la etapa en kilómetros?</label>
+                    <input type="number" id="pregunta8" min="0" step="0.1" />
+                </p>
+                <p>
+                    <label for="pregunta9">9. ¿Cuál es el desnivel acumulado de la etapa en metros?</label>
+                    <input type="number" id="pregunta9" min="0" step="1" />
+                </p>
+                <p>
+                    <label for="pregunta10">10. Describe brevemente la etapa</label>
+                    <textarea id="pregunta10" rows="4" cols="50"></textarea>
+                </p>
+                <p>
+                    <label for="nombre">Nombre del participante</label>
+                    <input type="text" id="nombre" />
+                </p>
+            </fieldset>
+            <button type="submit">Enviar respuestas</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>David González González</p>
+        <address><a href="mailto:UO291047@uniovi.es">UO291047@uniovi.es</a></address>
+    </footer>
 </body>
 </html>
