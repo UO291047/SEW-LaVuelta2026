@@ -1,23 +1,21 @@
-/* ***************************************/
-/*             LaVuelta2026              */
-/*          Estilos generales            */
-/* ***************************************/
-/*    DATOS ESTUDIANTE                   */
-/* --------------------------------------*/
-/*  Nombre y Apellidos: David González González */
+/* **************************************************/
+/*             LaVuelta2026                         */
+/*          Estilos generales                       */
+/* **************************************************/
+/*    DATOS ESTUDIANTE                              */
+/* -------------------------------------------------*/
+/*  Nombre y Apellidos: David González González     */
 /*  Correo electrónico (uniovi): UO291047@uniovi.es */
-/*  Grupo de laboratorio: L-06           */
-/* ***************************************/
+/*  Grupo de laboratorio: L-06                      */
+/* **************************************************/
 
 /* Gama cromática
 Color principal (#444444)
-    - Contraste de 8.17:1 con color secundario (AAA)
-    - Contraste de 9.74:1 con color blanco (AAA)
-    - Contraste de 2.16:1 con color negro (NO CONTRASTA, se descarta)
+    - Contraste de 8.17:1 con color secundario
+    - Contraste de 9.74:1 con color blanco
 Color secundario (#EBECE0)
-    - Contraste de 8.17:1 con color principal (AAA)
-    - Contraste de 17.61:1 con color negro (AAA)
-    - Contraste de 1.19:1 con color blanco (NO CONTRASTA, se descarta)
+    - Contraste de 8.17:1 con color principal
+    - Contraste de 17.61:1 con color negro
 Color blanco (#FFFFFF)
 Color negro (#000000)
 */
