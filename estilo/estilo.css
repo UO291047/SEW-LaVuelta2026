@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-principal); /*Advertencia: color de fondo heredado*/
 }
 
-/* Especificidad: 002, 002, 002 */
+/* Especificidad: 002, 002 */
 header a, footer a {
     color: var(--color-blanco); /*Advertencia: color de fondo heredado*/
     text-decoration-line: none;

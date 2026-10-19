@@ -27,7 +27,6 @@ section:has(picture) ul {
     list-style: none;
 }
 
-/* Ejercicio 4: apartado Multimedia en columna */
 /*Especificidad: 002*/
 section:has(video) {
     display: flex;
@@ -35,7 +34,6 @@ section:has(video) {
     align-items: flex-start;
 }
 
-/* Ejercicio 5: alineación de corredores en cuadrícula */
 /*Especificidad: 003*/
 section:has(article + article) {
     display: grid;
@@ -50,7 +48,6 @@ section:has(article + article) > h3 {
     grid-column: 1 / -1;
 }
 
-/* Ejercicio 6: posicionamiento general con áreas */
 /*Especificidad: 001*/
 body {
     display: grid;
@@ -64,7 +61,6 @@ body {
     margin: 0;
 }
 
-/* Ejercicios 6 y 7: área de la cabecera y distribución flexible */
 /*Especificidad: 001*/
 header {
     grid-area: cabecera;
@@ -84,7 +80,7 @@ header > nav {
 /*Especificidad: 003*/
 body > header + nav {
     grid-area: migas;
-    padding: 0 1em;
+    padding: 1em 1em;
 }
 
 /*Especificidad: 001*/
@@ -93,7 +89,6 @@ main {
     padding: 0 1em;
 }
 
-/* Ejercicios 6 y 7: área del pie y distribución en columna */
 /*Especificidad: 001*/
 footer {
     grid-area: pie;
@@ -108,7 +103,6 @@ footer > p {
     margin: 0;
 }
 
-/* Ejercicio 9: adaptabilidad */
 /* Tabletas */
 @media (max-width: 1024px) {
     /*Especificidad: 001*/
