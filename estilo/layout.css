@@ -71,7 +71,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1em;
 }
 
 /*Especificidad: 002*/
@@ -84,12 +83,15 @@ header > nav {
 /*Especificidad: 003*/
 body > header + nav {
     grid-area: migas;
-    padding: 0 1em;
 }
 
 /*Especificidad: 001*/
 main {
     grid-area: contenido;
+}
+
+/*Especificidad: 001, 003, 001*/
+header, body > header + nav, main {
     padding: 0 1em;
 }
 
