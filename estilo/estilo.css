@@ -10,17 +10,15 @@
 /* **************************************************/
 
 /* Gama cromática
-Color principal (#444444)
-    - Contraste de 8.17:1 con color secundario
-    - Contraste de 9.74:1 con color blanco
-Color secundario (#EBECE0)
-    - Contraste de 8.17:1 con color principal
-    - Contraste de 17.61:1 con color negro
+Color principal (#9C190D)
+    - Contraste de 7.04:1 con color secundario
+    - Contraste de 8.21:1 con color blanco
+Color secundario (#ADFFD2)
+    - Contraste de 7.04:1 con color principal
+    - Contraste de 18.01:1 con color negro
 Color blanco (#FFFFFF)
 Color negro (#000000)
 */
-
-/*Colores actualizados, actualizar notas de gama cromática*/
 
 /* Especificidad: 010 */
 :root {

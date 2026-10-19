@@ -16,11 +16,138 @@ section:has(picture) {
     align-items: center;
 }
 
+/*Especificidad: 003*/
 section:has(picture) h3 {
     flex-basis: 100%;
 }
 
+/*Especificidad: 003*/
 section:has(picture) ul {
     order: 1;
     list-style: none;
+}
+
+/* Ejercicio 4: apartado Multimedia en columna */
+/*Especificidad: 002*/
+section:has(video) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Ejercicio 5: alineación de corredores en cuadrícula */
+/*Especificidad: 003*/
+section:has(article + article) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 1em;
+}
+
+/*Especificidad: 004*/
+section:has(article + article) > h3 {
+    grid-column: 1 / -1;
+}
+
+/* Ejercicio 6: posicionamiento general con áreas */
+/*Especificidad: 001*/
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas:
+        "cabecera"
+        "migas"
+        "contenido"
+        "pie";
+    margin: 0;
+}
+
+/* Ejercicios 6 y 7: área de la cabecera y distribución flexible */
+/*Especificidad: 001*/
+header {
+    grid-area: cabecera;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+
+/*Especificidad: 002*/
+header > nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+/*Especificidad: 003*/
+body > header + nav {
+    grid-area: migas;
+    padding: 0 1em;
+}
+
+/*Especificidad: 001*/
+main {
+    grid-area: contenido;
+    padding: 0 1em;
+}
+
+/* Ejercicios 6 y 7: área del pie y distribución en columna */
+/*Especificidad: 001*/
+footer {
+    grid-area: pie;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+/*Especificidad: 002*/
+footer > p {
+    margin: 0;
+}
+
+/* Ejercicio 9: adaptabilidad */
+/* Tabletas */
+@media (max-width: 1024px) {
+    /*Especificidad: 001*/
+    header {
+        flex-direction: column;
+    }
+
+    /*Especificidad: 002*/
+    header > nav {
+        align-self: stretch;
+        justify-content: space-around;
+    }
+
+    /*Especificidad: 003*/
+    body > header + nav {
+        display: none;
+    }
+
+    /*Especificidad: 003*/
+    section:has(article + article) {
+        grid-template-columns: repeat(2, 1fr); /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr) */
+    }
+}
+
+/* Móviles */
+@media (max-width: 768px) {
+    /*Especificidad: 002*/
+    header > nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*Especificidad: 003*/
+    section:has(article + article) {
+        grid-template-columns: 1fr; /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(2, 1fr) */
+    }
+
+    /*Especificidad: 001, 001, 001*/
+    video, audio, textarea {
+        max-width: 100%;
+    }
 }
