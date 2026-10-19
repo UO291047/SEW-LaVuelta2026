@@ -20,10 +20,12 @@ Color blanco (#FFFFFF)
 Color negro (#000000)
 */
 
+/*Colores actualizados, actualizar notas de gama cromática*/
+
 /* Especificidad: 010 */
 :root {
-    --color-principal: #444444;
-    --color-secundario: #EBECE0;
+    --color-principal: #9C190D;
+    --color-secundario: #ADFFD2;
     --color-negro: #000000;
     --color-blanco: #FFFFFF;
 }
@@ -43,12 +45,50 @@ header, footer {
 
 /* Especificidad: 001, 001, 001, 001, 001, 001 */
 h1, h2, h3, h4, h5, h6 {
-    color: var(--color-principal);
-    background-color: var(--color-blanco);
+    color: var(--color-principal); /*Advertencia: color de fondo heredado*/
 }
 
 /* Especificidad: 002, 002, 002 */
-header h1, header a, footer a {
-    color: var(--color-blanco);
-    background-color: var(--color-principal);
+header a, footer a {
+    color: var(--color-blanco); /*Advertencia: color de fondo heredado*/
+    text-decoration-line: none;
+}
+
+/*Especificidad: 010*/
+[aria-current="page"] {
+    color: var(--color-secundario); /*Advertencia: color de fondo heredado*/
+}
+
+/* Especificidad: 003*/
+header + nav > ol { 
+    font-size: 0.8em;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+/*Especificidad: 004*/
+header + nav > ol > li {
+    display: inline;
+}
+
+/*Especificidad: 014*/
+header + nav > ol > li:last-child {
+    font-weight: bold;
+}
+
+/*Especificidad: 014*/
+section:has(picture) ul li:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*Especificidad: 014*/
+section:has(picture) ul li:nth-child(3) {
+    font-size: 1.2em;
+}
+
+/*Especificidad: 014*/
+section:has(picture) ul li:nth-child(4) {
+    font-weight: bold;
 }

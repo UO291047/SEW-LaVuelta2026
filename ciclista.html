@@ -23,7 +23,7 @@
         <h1><a href="index.html">LaVuelta2026</a></h1>
         <nav>
             <a href="index.html" title="Menú de inicio">Inicio</a>
-            <a class="active" href="ciclista.html" title="Información sobre el ciclista">Ciclista</a>
+            <a aria-current="page" href="ciclista.html" title="Información sobre el ciclista">Ciclista</a>
             <a href="equipo.html" title="Información sobre el equipo">Equipo</a>
             <a href="etapa.html" title="Información sobre la etapa">Etapa</a>
             <a href="meteorologia.html" title="Información sobre la meteorología">Meteorología</a>
@@ -33,17 +33,25 @@
         </nav>
     </header>
 
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li>>></li>
+            <li>Ciclista</li>
+        </ol>
+    </nav>
+
     <main>
         <h2>Hannes Wilksch</h2>
 
         <section>
             <h3>Datos personales</h3>
             <ul>
-                <li>Nombre completo: Hannes Wilksch</li>
-                <li>Fecha de nacimiento: 30/10/2001</li>
-                <li>País de nacimiento: Alemania</li>
-                <li>Equipo: TUDOR PRO CYCLING TEAM</li>
-                <li>Dorsal: 178</li>
+                <li>Hannes Wilksch</li>
+                <li>30/10/2001</li>
+                <li>Alemania</li>
+                <li>TUDOR PRO CYCLING TEAM</li>
+                <li>178</li>
             </ul>
             <picture>
                 <source srcset="multimedia/ciclista_movil.png" media="(max-width: 768px)" width="105" height="159">
