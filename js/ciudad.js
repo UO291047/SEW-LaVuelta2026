@@ -33,7 +33,7 @@ class Ciudad{
 
 }
 
-let ciudad = new Ciudad("La Vila Joiosa/ Villajoyosa", "España", "Viler");
+let ciudad = new Ciudad("La Vila Joiosa/Villajoyosa", "España", "Viler");
 ciudad.rellenarAtributos(37_449, [-0.213006, 38.538118]);
 
 const seccion = document.createElement("section");
