@@ -2,7 +2,7 @@
 class Ciudad{
 
     constructor(nombreCiudad, pais, gentilicio){
-        this.nombre_ciudad = nombreCiudad;
+        this.nombreCiudad = nombreCiudad;
         this.pais = pais;
         this.gentilicio = gentilicio;
     }
@@ -28,7 +28,7 @@ class Ciudad{
     }
 
     escribeCoordenadas(){
-        document.write("<p>" + "Coordenadas: [" + this.coords + "]" + "</p>");
+        document.querySelector("section").insertAdjacentHTML("beforeend", "<p>" + "Coordenadas: [" + this.coords + "]" + "</p>");
     }
 
 }
