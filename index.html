@@ -11,6 +11,9 @@
     
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
 
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/buscador.js"></script>
+
     <!--Enlace a las hojas de estilo-->
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
@@ -21,6 +24,7 @@
    <!-- contenido de index.html  -->
     <header>
         <h1><a href="index.html">LaVuelta2026</a></h1>
+        <button type="button" aria-label="Abrir menú de navegación" aria-expanded="false">☰</button>
         <nav>
             <a aria-current="page" href="index.html" title="Menú de inicio">Inicio</a>
             <a href="ciclista.html" title="Información sobre el ciclista">Ciclista</a>
@@ -32,6 +36,11 @@
             <a href="ayuda.html" title="Ayuda de la página">Ayuda</a>   
         </nav>
     </header>
+
+    <search aria-label="Buscador">
+        <label for="busqueda"><img src="multimedia/buscador.png" alt="icono lupa" /></label>
+        <input type="search" id="busqueda" aria-label="Buscar" placeholder="Buscar..." />
+    </search>
 
     <main>
         <h2>Inicio</h2>

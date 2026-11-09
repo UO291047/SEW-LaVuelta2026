@@ -11,6 +11,11 @@
    
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
 
+    <script defer src="js/formulario.js"></script>
+
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/buscador.js"></script>
+
     <!--Enlace a las hojas de estilo-->
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
@@ -21,6 +26,7 @@
    <!-- contenido de juegos.html  -->
     <header>
         <h1><a href="index.html">LaVuelta2026</a></h1>
+        <button type="button" aria-label="Abrir menú de navegación" aria-expanded="false">☰</button>
         <nav>
             <a href="index.html" title="Menú de inicio">Inicio</a>
             <a href="ciclista.html" title="Información sobre el ciclista">Ciclista</a>
@@ -32,6 +38,11 @@
             <a href="ayuda.html" title="Ayuda de la página">Ayuda</a>
         </nav>
     </header>
+
+    <search aria-label="Buscador">
+        <label for="busqueda"><img src="multimedia/buscador.png" alt="icono lupa" /></label>
+        <input type="search" id="busqueda" aria-label="Buscar" placeholder="Buscar..." />
+    </search>
 
     <nav aria-label="migas">
         <ol>
@@ -52,15 +63,15 @@
                 <legend>La Vila Joiosa-Villajoyosa a Alto de Aitana-Costa Blanca</legend>
                 <p>
                     <label for="pregunta1">1. ¿Cuál es el número de la etapa?</label>
-                    <input type="number" id="pregunta1" min="1" max="21" />
+                    <input type="number" id="pregunta1" name="numero-etapa" min="1" max="21" />
                 </p>
                 <p>
                     <label for="pregunta2">2. ¿Cuál es la fecha de celebración de la etapa?</label>
-                    <input type="date" id="pregunta2" min="2026-08-22" max="2026-09-13" />
+                    <input type="date" id="pregunta2" name="fecha" min="2026-08-22" max="2026-09-13" />
                 </p>
                 <p>
                     <label for="pregunta3">3. ¿Cuál fue el lugar de salida de la etapa?</label>
-                    <select id="pregunta3">
+                    <select id="pregunta3" name="salida">
                         <option value="">Seleccione una opción</option>
                         <option value="La Vila Joiosa-Villajoyosa">La Vila Joiosa-Villajoyosa</option>
                         <option value="Monaco">Monaco</option>
@@ -72,7 +83,7 @@
                 </p>
                 <p>
                     <label for="pregunta4">4. ¿Cuál fue el lugar de llegada de la etapa?</label>
-                    <select id="pregunta4">
+                    <select id="pregunta4" name="llegada">
                         <option value="">Seleccione una opción</option>
                         <option value="Sevilla">Sevilla</option>
                         <option value="Castelló">Castelló</option>
@@ -84,49 +95,49 @@
                 </p>
                 <p>
                     5. ¿De qué tipo es la etapa?
-                    <input type="radio" id="llana" name="tipoEtapa" value="Llana" />
+                    <input type="radio" id="llana" name="tipo-etapa" value="Llana" />
                     <label for="llana">Llana</label>
-                    <input type="radio" id="mediaMontana" name="tipoEtapa" value="Media montaña" />
+                    <input type="radio" id="mediaMontana" name="tipo-etapa" value="Media montaña" />
                     <label for="mediaMontana">Media montaña</label>
-                    <input type="radio" id="montana" name="tipoEtapa" value="Montaña" />
+                    <input type="radio" id="montana" name="tipo-etapa" value="Montaña" />
                     <label for="montana">Montaña</label>
-                    <input type="radio" id="crIndividual" name="tipoEtapa" value="Contrarreloj individual" />
+                    <input type="radio" id="crIndividual" name="tipo-etapa" value="Contrarreloj individual" />
                     <label for="crIndividual">Contrarreloj individual</label>
-                    <input type="radio" id="crEquipos" name="tipoEtapa" value="Contrarreloj por equipos" />
+                    <input type="radio" id="crEquipos" name="tipo-etapa" value="Contrarreloj por equipos" />
                     <label for="crEquipos">Contrarreloj por equipos</label>
                 </p>
                 <p>
                     6. ¿Qué hitos hay en la etapa?
-                    <input type="checkbox" id="puerto" value="Puerto de montaña" />
+                    <input type="checkbox" id="puerto" name="hitos" value="Puerto de montaña" />
                     <label for="puerto">Puerto de montaña</label>
-                    <input type="checkbox" id="puertoEspecial" value="Puerto categoría especial" />
+                    <input type="checkbox" id="puertoEspecial" name="hitos" value="Puerto categoría especial" />
                     <label for="puertoEspecial">Puerto categoría especial</label>
-                    <input type="checkbox" id="sprintIntermedio" value="Sprint intermedio" />
+                    <input type="checkbox" id="sprintIntermedio" name="hitos" value="Sprint intermedio" />
                     <label for="sprintIntermedio">Sprint intermedio</label>
-                    <input type="checkbox" id="sprintBonificado" value="Sprint bonificado" />
+                    <input type="checkbox" id="sprintBonificado" name="hitos" value="Sprint bonificado" />
                     <label for="sprintBonificado">Sprint bonificado</label>
-                    <input type="checkbox" id="sinHitos" value="Sin hitos" />
+                    <input type="checkbox" id="sinHitos" name="hitos" value="Sin hitos" />
                     <label for="sinHitos">Sin hitos</label>
                 </p>
                 <p>
                     <label for="pregunta7">7. ¿Cómo de dura es la etapa? (de 1 a 10)</label>
-                    <input type="range" id="pregunta7" min="1" max="10" step="1" />
+                    <input type="range" id="pregunta7" name="dureza" min="1" max="10" step="1" />
                 </p>
                 <p>
                     <label for="pregunta8">8. ¿Cuál es la longitud de la etapa en kilómetros?</label>
-                    <input type="number" id="pregunta8" min="0" step="0.1" />
+                    <input type="number" id="pregunta8" name="longitud" min="0" step="0.1" />
                 </p>
                 <p>
                     <label for="pregunta9">9. ¿Cuál es el desnivel acumulado de la etapa en metros?</label>
-                    <input type="number" id="pregunta9" min="0" step="1" />
+                    <input type="number" id="pregunta9" name="desnivel" min="0" step="1" />
                 </p>
                 <p>
                     <label for="pregunta10">10. Describe brevemente la etapa</label>
-                    <textarea id="pregunta10" rows="4" cols="50"></textarea>
+                    <textarea id="pregunta10" name="descripcion" rows="4" cols="50"></textarea>
                 </p>
                 <p>
                     <label for="nombre">Nombre del participante</label>
-                    <input type="text" id="nombre" />
+                    <input type="text" id="nombre" name="usuario" />
                 </p>
             </fieldset>
             <button type="submit">Enviar respuestas</button>

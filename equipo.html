@@ -13,6 +13,9 @@
 
     <script defer src="js/equipo.js"></script>
 
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/buscador.js"></script>
+
     <!--Enlace a las hojas de estilo-->
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
@@ -23,6 +26,7 @@
    <!-- contenido de Equipo.html  -->
    <header>
         <h1><a href="index.html">LaVuelta2026</a></h1>
+        <button type="button" aria-label="Abrir menú de navegación" aria-expanded="false">☰</button>
         <nav>
             <a href="index.html" title="Menú de inicio">Inicio</a>
             <a href="ciclista.html" title="Información sobre el ciclista">Ciclista</a>
@@ -35,6 +39,11 @@
         </nav>
     </header> 
 
+    <search aria-label="Buscador">
+        <label for="busqueda"><img src="multimedia/buscador.png" alt="icono lupa" /></label>
+        <input type="search" id="busqueda" aria-label="Buscar" placeholder="Buscar..." />
+    </search>
+
     <nav aria-label="migas">
         <ol>
             <li><a href="index.html">Inicio</a></li>
@@ -45,59 +54,6 @@
 
     <main>
         <h2>TUDOR PRO CYCLING TEAM</h2>
-        <!--
-        <section>
-            <h3>Alineación de corredores</h3>
-            <article>
-                <h4>NOMBRE - APELLIDOS</h4>
-                <img src="multimedia/ciclistaGenerico.png" alt="Icono de un ciclista genérico" width="128" height="128" />
-                <p>DORSAL</p>
-                <p>XX/XX/XXXX - NACIONALIDAD</p>
-            </article>
-            <article>
-                <h4>NOMBRE - APELLIDOS</h4>
-                <img src="multimedia/ciclistaGenerico.png" alt="Icono de un ciclista genérico" width="128" height="128" />
-                <p>DORSAL</p>
-                <p>XX/XX/XXXX - NACIONALIDAD</p>
-            </article>
-            <article>
-                <h4>NOMBRE - APELLIDOS</h4>
-                <img src="multimedia/ciclistaGenerico.png" alt="Icono de un ciclista genérico" width="128" height="128" />
-                <p>DORSAL</p>
-                <p>XX/XX/XXXX - NACIONALIDAD</p>
-            </article>
-            <article>
-                <h4>NOMBRE - APELLIDOS</h4>
-                <img src="multimedia/ciclistaGenerico.png" alt="Icono de un ciclista genérico" width="128" height="128" />
-                <p>DORSAL</p>
-                <p>XX/XX/XXXX - NACIONALIDAD</p>
-            </article>
-            <article>
-                <h4>NOMBRE - APELLIDOS</h4>
-                <img src="multimedia/ciclistaGenerico.png" alt="Icono de un ciclista genérico" width="128" height="128" />
-                <p>DORSAL</p>
-                <p>XX/XX/XXXX - NACIONALIDAD</p>
-            </article>
-            <article>
-                <h4>NOMBRE - APELLIDOS</h4>
-                <img src="multimedia/ciclistaGenerico.png" alt="Icono de un ciclista genérico" width="128" height="128" />
-                <p>DORSAL</p>
-                <p>XX/XX/XXXX - NACIONALIDAD</p>
-            </article>
-            <article>
-                <h4>NOMBRE - APELLIDOS</h4>
-                <img src="multimedia/ciclistaGenerico.png" alt="Icono de un ciclista genérico" width="128" height="128" />
-                <p>DORSAL</p>
-                <p>XX/XX/XXXX - NACIONALIDAD</p>
-            </article>
-            <article>
-                <h4>NOMBRE - APELLIDOS</h4>
-                <img src="multimedia/ciclistaGenerico.png" alt="Icono de un ciclista genérico" width="128" height="128" />
-                <p>DORSAL</p>
-                <p>XX/XX/XXXX - NACIONALIDAD</p>
-            </article>
-        </section>
-        -->
     </main>
 
     <footer>

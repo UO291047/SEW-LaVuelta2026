@@ -79,8 +79,10 @@ class Equipo{
     mostrarAlineacion(){
         const seccion = document.createElement("section");
         const titulo = document.createElement("h3");
-        titulo.textContent = "Alneación de corredores";
+        titulo.textContent = "Alineación de corredores";
         seccion.appendChild(titulo);
+
+        this.alineacion.sort((ciclistaA, ciclistaB) => ciclistaA.getDorsal() - ciclistaB.getDorsal());
 
         this.alineacion.forEach(ciclista => {
             const articulo = document.createElement("article");

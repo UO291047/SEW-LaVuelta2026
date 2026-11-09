@@ -58,7 +58,7 @@ header a, footer a {
 }
 
 /* Especificidad: 003*/
-header + nav > ol { 
+search + nav > ol { 
     font-size: 0.8em;
     list-style: none;
     margin: 0;
@@ -66,12 +66,12 @@ header + nav > ol {
 }
 
 /*Especificidad: 004*/
-header + nav > ol > li {
+search + nav > ol > li {
     display: inline;
 }
 
 /*Especificidad: 014*/
-header + nav > ol > li:last-child {
+search + nav > ol > li:last-child {
     font-weight: bold;
 }
 
@@ -89,4 +89,9 @@ section:has(picture) ul li:nth-child(3) {
 /*Especificidad: 014*/
 section:has(picture) ul li:nth-child(4) {
     font-weight: bold;
+}
+
+/*Especificidad: 011*/
+input[type="search"] {
+    border: none;
 }
