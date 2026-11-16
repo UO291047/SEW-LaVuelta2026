@@ -24,7 +24,7 @@ class Buscador{
 
             let nodo = nodos.nextNode();
             while (nodo !== null) {
-                regexp.lastIndex = 0; // con el parámetro 'g', test() continúa desde la posición de la última coincidencia
+                regexp.lastIndex = 0;
                 if (regexp.test(nodo.textContent)) {
                     resultados.push(nodo);
                 }

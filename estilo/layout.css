@@ -187,4 +187,9 @@ footer > p {
     video, audio, textarea {
         max-width: 100%;
     }
+
+    /*Especificidad: 003*/
+    article h2+img {
+        max-width: 100%;
+    }
 }
