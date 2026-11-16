@@ -59,6 +59,7 @@ body {
         "migas"
         "contenido"
         "pie";
+    grid-template-columns: minmax(0, 1fr);
     margin: 0;
 }
 
@@ -191,5 +192,15 @@ footer > p {
     /*Especificidad: 003*/
     article h2+img {
         max-width: 100%;
+    }
+
+    /*Especificidad: 001*/
+    main {
+        overflow-wrap: anywhere;
+    }
+
+    /*Especificidad: 001*/
+    fieldset {
+        min-width: 0;
     }
 }
