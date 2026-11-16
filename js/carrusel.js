@@ -14,7 +14,7 @@ class Carrusel{
         $.getJSON(flickrAPI,
             {
                 tags: this.busqueda,
-                tagmode: "any",
+                tagmode: "all",
                 format: "json"
             })
             .done((datos) => {
@@ -28,7 +28,9 @@ class Carrusel{
         $.each(datos.items, (i, item) => {
             const url = item.media.m.replace("_m.", "_z.");
 
-            this.fotografias.push({ url: url, titulo: item.title });
+            const titulo = item.title !== "" ? item.title : "Fotografía de La Vuelta 2026";
+
+            this.fotografias.push({ url: url, titulo: titulo });
 
             return this.fotografias.length <= this.maximo;
         });
@@ -47,18 +49,17 @@ class Carrusel{
 
         $("main > h2").after(articulo);
 
-        setInterval(() => {
-            this.cambiarFotografia();
-        }, 3000);
+        setInterval(this.cambiarFotografia.bind(this), 3000);
     }
 
     cambiarFotografia(){
-        this.actual = (this.actual + 1) % this.fotografias.length;
+        this.actual++;
+        if (this.actual > this.maximo || this.actual >= this.fotografias.length) {
+            this.actual = 0;
+        }
+
         const foto = this.fotografias[this.actual];
         $("main > article > img").attr("src", foto.url).attr("alt", foto.titulo);
     }
 
 }
-
-const carrusel = new Carrusel("lavuelta2026, lavueltaciclista");
-carrusel.getFotografias();

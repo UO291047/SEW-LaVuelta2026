@@ -16,7 +16,7 @@
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
         crossorigin="anonymous"></script>
 
-    <script defer src="js/carrusel.js"></script>
+    <script src="js/carrusel.js"></script>
     <script defer src="js/noticias.js"></script>
     <script defer src="js/menu.js"></script>
     <script defer src="js/buscador.js"></script>
@@ -51,6 +51,10 @@
 
     <main>
         <h2>Inicio</h2>
+        <script>
+            const carrusel = new Carrusel("lavuelta, 2026");
+            carrusel.getFotografias();
+        </script>
     </main>
 
     <footer>
