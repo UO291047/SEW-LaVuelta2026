@@ -14,7 +14,7 @@ class Carrusel{
         $.getJSON(flickrAPI,
             {
                 tags: this.busqueda,
-                tagmode: "all",
+                tagmode: "any",
                 format: "json"
             })
             .done((datos) => {
