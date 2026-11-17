@@ -32,8 +32,14 @@ class Buscador{
             }
 
             resultados.forEach(nodo => {
-                const nuevoTexto = nodo.textContent.replaceAll(regexp, "<mark>$&</mark>");
-                nodo.parentElement.innerHTML = nuevoTexto;
+                const partes = nodo.textContent.split(new RegExp(`(${texto})`, "gi"));
+
+                nodo.replaceWith(...partes.map((parte, indice) => {
+                    if (indice % 2 === 0) return document.createTextNode(parte);
+                    const marca = document.createElement("mark");
+                    marca.textContent = parte;
+                    return marca;
+                }));
             });
         }
     }
